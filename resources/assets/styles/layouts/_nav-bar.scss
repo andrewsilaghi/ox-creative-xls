@@ -1,0 +1,37 @@
+.navbar {
+  padding: 1.25em 4.688em !important;
+  background-color: $off-white;
+}
+
+.navbar__logo {
+  width: 6em;
+}
+
+.nav-link {
+  font-size: 1em !important;
+  text-transform: uppercase;
+  color: $blue !important;
+  font-family: minion-pro-display, serif;
+  letter-spacing: 0.12em;
+  font-weight: 500 !important;
+  margin-right: 5em;
+}
+
+.nav-link:active {
+  color: $gold !important;
+}
+
+.nav-link:hover {
+  color: $gold !important;
+}
+
+.menu-item:last-child {
+  .nav-link {
+    margin-right: 0;
+  }
+}
+
+.active a {
+  color: $gold !important;
+}
+

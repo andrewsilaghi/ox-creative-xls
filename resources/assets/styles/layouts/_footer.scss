@@ -1,0 +1,58 @@
+.footer {
+  background-color: $off-white;
+  padding: 5em 4em;
+}
+
+.footer__legal {
+  padding-right: 20px;
+}
+
+.footer__legal-text {
+  padding-top: 4em;
+  font-family: minion-pro-display, serif;
+  font-size: 0.9em;
+}
+
+.footer__header {
+  font-family: minion-pro-display, serif;
+  color: $gold;
+  font-size: 1.4em;
+  padding-bottom: 0.9em;
+  margin: 0;
+}
+
+.footer__contact-dets {
+  padding-top: 30px;
+  margin: 0;
+  font-weight: 500;
+  font-size: 1em;
+
+  a {
+    text-decoration: none;
+    color: $black !important;
+    display: block;
+  }
+
+  a:hover {
+    cursor: pointer !important;
+  }
+}
+
+.footer__links-list {
+  list-style: none;
+  list-style-type: none;
+  padding: 30px 0;
+
+  .footer__link-item {
+    padding-bottom: 1em;
+
+    a {
+      color: $black !important;
+      font-weight: 500;
+    }
+  }
+}
+
+.footer__link-item:last-child {
+  padding: 0;
+}
